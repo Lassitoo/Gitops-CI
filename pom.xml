@@ -114,25 +114,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>3.6.0</version> <!-- Utilisez la version compatible avec votre projet -->
-            <executions>
-                <execution>
-                    <goals>
-                        <goal>prepare-agent</goal>
-                    </goals>
-                    <phase>test</phase>
-                </execution>
-                <execution>
-                    <goals>
-                        <goal>report</goal>
-                    </goals>
-                    <phase>verify</phase>
-                </execution>
-            </executions>
-        </plugin>
         </plugins>
     </build>
 
